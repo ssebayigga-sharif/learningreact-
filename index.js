@@ -25,11 +25,54 @@ import Num from "./Num";
 import Exhausted from "./Exhausted";
 import Try from "./Try";
 import Choose from "./Choose";
+import Gender from "./Gender";
+import And from "./And";
+import Should from "./Should";
+import Chose from "./Chose";
+import Minor from "./Minor";
+import Kam from "./Kam";
+import Count from "./Count";
+import Live from "./Live";
+import Lists from "./List";
+import Pops from "./Pops";
+import Poop from "./Poop";
+import Pass from "./Pass";
+import Watch from "./Watch";
+import Enjoyed from "./Enjoyed";
+import Sent from "./Sent";
+import Event from "./Event";
+import Maze from "./Maze";
+import Hero from "./Hero";
+import Week from "./Week";
+import Login from "./Login";
+import Page from "./Page";
+import Hername from "./Hername";
+import Meals from "./Meals";
+import Speed from "./Speed";
+import Treatment from "./Treatment";
+import Roods from "./Roods";
+import Teem from "./Teem";
+import Forms from "./Forms";
+import Buttoni from "./Buttoni";
+import Define from "./Define";
+import Thursday from "./Thursday";
+import Myform from "./Myform";
+import Foooms from "./Foooms";
+import Friends from "./Friends";
+import Family from "./Family";
+import Together from "./Together";
+import Submit from "./Submit";
+import Lubega from "./Lubega";
+import Food from "./Food";
+import Navigation from "./Navigation";
+import Mycount from "./Mycount";
+import Red from "./Red";
+import Ran from "./Ran";
 
 //the conditional statements
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Choose scored={false} />);
+root.render(<Ran />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

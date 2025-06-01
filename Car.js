@@ -6,6 +6,7 @@ function Car() {
   return (
     <>
       <h1>that is her car</h1>
+      <p>i like driving big cars</p>
       <Driver />
     </>
   );

@@ -1,3 +1,5 @@
+import Navigates from "./Navigates";
+
 function Food() {
   const myFood = [
     "rice",
@@ -10,8 +12,9 @@ function Food() {
   ];
   return (
     <>
+      <Navigates />
       {myFood.map((eat) => (
-        <Food />
+        <li>{eat}</li>
       ))}
     </>
   );
