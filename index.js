@@ -68,11 +68,22 @@ import Navigation from "./Navigation";
 import Mycount from "./Mycount";
 import Red from "./Red";
 import Ran from "./Ran";
+import Magic from "./Magic";
+import Between from "./Between";
+import Kalikawe from "./Kalikawe";
+import Call from "./Phoness";
+import Joined from "./Joined";
+import Vam from "./Vam";
+import Hooks from "./Hooks";
+import Hoo from "./Hooks";
+import Update from "./Update";
+import Designed from "./Designed";
+import Cardesign from "./Cardesign";
 
 //the conditional statements
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Ran />);
+root.render(<Cardesign />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

@@ -1,4 +1,5 @@
 // react class constructor component
+import "./Vehicle.css";
 import React from "react";
 class Vehicle extends React.Component {
   constructor() {

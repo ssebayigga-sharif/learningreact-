@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+
+import styles from "./Treatment.module.css";
+``;
 class House extends React.Component {
   render() {
     return (
