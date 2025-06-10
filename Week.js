@@ -1,11 +1,13 @@
 import Monday from "./Monday";
 
-function Week() {
+function Week(props) {
   return (
     <>
+      <h2>this is the week component</h2>
       <p>what is the day today</p>
+      <p>all will what, {props.like}</p>
 
-      <Monday />
+      <Monday like={props.yes} />
     </>
   );
 }

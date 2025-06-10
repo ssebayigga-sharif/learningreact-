@@ -8,7 +8,7 @@
 
 import { useState } from "react";
 
-function Thursday() {
+function Thursday(props) {
   const [domestic, setDomestic] = useState("domestic animals");
   const [paragraphOne, setParagraphOne] = useState("cows and goats");
   const [paragraphTwo, setParagraphTwo] = useState(
@@ -21,6 +21,8 @@ function Thursday() {
   return (
     <>
       <h1>animals good for food</h1>
+      <h4>this is the thursday component</h4>
+      <p>i have given it some props saying , {props.sherri}</p>
       <h3>{domestic}</h3>
       <p>{domestic === "domestic animals" && paragraphOne}</p>
       <p>{domestic === "wild animals" && paragraphTwo}</p>

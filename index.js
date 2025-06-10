@@ -79,11 +79,21 @@ import Hoo from "./Hooks";
 import Update from "./Update";
 import Designed from "./Designed";
 import Cardesign from "./Cardesign";
+import Effect from "./Effect";
+import Table from "./Table";
+import Found from "./Found";
+import Six from "./Six";
+import Weekend from "./Weekend";
+import Years from "./Years";
+import June from "./June";
+import Bottles from "./Bottles";
+import Mathe from "./Mathe";
+import Purpose from "./Purpose";
 
 //the conditional statements
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Cardesign />);
+root.render(<Weekend />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
