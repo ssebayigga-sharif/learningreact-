@@ -89,11 +89,14 @@ import June from "./June";
 import Bottles from "./Bottles";
 import Mathe from "./Mathe";
 import Purpose from "./Purpose";
+import Capture from "./Capture";
+import Track from "./Track";
+import Trak from "./Trak";
 
 //the conditional statements
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Weekend />);
+root.render(<Trak />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

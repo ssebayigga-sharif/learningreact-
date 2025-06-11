@@ -11,7 +11,7 @@ function Weekend() {
   return (
     <>
       <h1> !!!!Them all</h1>
-      <p>we are bringing some friends</p>
+      <p>we are bringing some friends of {name}</p>
       <days.Provider value={name}>
         <One ko={name} />
       </days.Provider>
