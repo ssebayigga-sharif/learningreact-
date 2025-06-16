@@ -92,11 +92,23 @@ import Purpose from "./Purpose";
 import Capture from "./Capture";
 import Track from "./Track";
 import Trak from "./Trak";
+import Do from "./Do";
+import Meem from "./Meem";
+import Counter from "./Counter";
+import M from "./M";
+import K from "./K";
+import Statement from "./Statement";
+import Reduce from "./Reduce";
+import Counte from "./Reduce";
+import Aging from "./Redu";
+import School from "./MyClass";
+import MyStray from "./MyStray";
+import Fourth from "./Fourth";
 
 //the conditional statements
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Trak />);
+root.render(<School />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
